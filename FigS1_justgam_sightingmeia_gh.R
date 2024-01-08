@@ -33,7 +33,7 @@ o <- plot( sm(cuvgam, 1) )+ l_fitLine(colour = "red")+ l_rug(mapping = aes(x=x, 
   l_ciLine(mul = 5, colour = "blue", linetype = 2) 
 finalcuvpt <- o + l_fitLine(colour = "red") + l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
   l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
-  l_points(shape = 19, size = .5, alpha = 0.1) + theme_classic()+
+  l_points(shape = 19, size = .5, alpha = 1, color="black") + theme_classic()+
   annotate("text", x =1.6, y = 4.5, label = "b",  size = 2, color = "black")+
   xlab("MEI value") +
   theme(
@@ -49,18 +49,23 @@ o <- plot( sm(blvgam, 1) )+ l_fitLine(colour = "red")+ l_rug(mapping = aes(x=x, 
   l_ciLine(mul = 5, colour = "blue", linetype = 2) 
 finalblvpt <- o + l_fitLine(colour = "red") + l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
   l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
-  l_points(shape = 19, size = .5, alpha = 0.1) + theme_classic()+
+  l_points(shape = 19, size = .5, alpha = 1, color="black") + theme_classic()+
   annotate("text", x =1.6, y = 4.5, label = "a",  size = 2, color = "black")+
   xlab("MEI value") +
   theme(
     axis.text = element_text(size = 5, color = "black"),
     axis.title=element_text(size=6, color="black")
   )
-
+finalblvpt
 #
 jpeg(filename = "Md_gam_line_DC23.jpg", res=300)
 finalblvpt
 dev.off()
+
+postscript(file = "Md_gam_line_DC23.eps", horizontal = FALSE, onefile = FALSE, paper = "special", width = 6, height = 6)
+finalblvpt
+dev.off()
+
 
 jpeg(filename = "Zc_gam_line_DC23.jpg", res=300)
 finalcuvpt
