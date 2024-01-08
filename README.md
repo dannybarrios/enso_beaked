@@ -14,12 +14,14 @@ than 40 hours of effort have been combined if possible. Points with bias have al
 3. Effort_thruNov2022_GIS_2023MAY_Enso_comb_beaked: Effort file with months at HI similarly combined as mentioned above
 4. hawaii_effort_beakedwhale_sightings_MEI_values_v1_MAY23: excel workbook with sheets of information and r data
 5. MdTags_4hr_use_seafloor_geomorph_oceangographic_var_enso_MAY23_v1: Blainville's tags with all enso columns, 
-oceanographic variables, etc. 
-6. mei_values_csv: mei values by month and year
-7. pdo_period.csv: pdo period by month and year
+oceanographic variables, etc.
+6. 022_DouglasFiltered_r10d3lc2_ArgosGPS_2022DECv1.csv: Blainville's douglas filtered, original location tag data
+7. mei_values_csv: mei values by month and year
+8. pdo_period.csv: pdo period by month and year
 9. pdo_value_monthly: pdo value by month and year
 10. NPGO_values_monthly.csv: npgo values and period by month and year
 11. ZcTags_4hr_use_seafloor_geomorph_oceangographic_enso_300m_var_MAY23_v1: Cuvier's tags with all enso columns, 
-oceanographic variables, etc. 
+oceanographic variables, etc.
+12. ZcTag002-044_DouglasFiltered_KS_r10d3lc2_2020MAYv2.csv: Cuvier's douglas filtered, original location tag data
 
 - Danny
