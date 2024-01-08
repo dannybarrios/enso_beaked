@@ -2,7 +2,7 @@
 ##Calculating and analyzing sighting rates for beaked whale species in relation to enso values
 
 ##Author: Daniel M. Barrios
-## Updated: 23 June 2023
+## Updated: 8 January 2024
 library(dplyr)
 library(lubridate)
 library(ggplot2)
@@ -168,12 +168,6 @@ seffy$Avg_MEI <- sapply(seffy$year, function(year) {
 seffy$Period <- ifelse(seffy$Avg_MEI <= -0.5, "LN",
                       ifelse(seffy$Avg_MEI >= 0.5, "EN", "Neutral"))
 
-#strength: does not always work?
-#seffy$Strength <- ifelse(seffy$MEI %in% c(0.5:0.9, -0.5:-0.9), "Weak",
-#                          ifelse(seffy$MEI %in% c(-1:-1.7, 1:1.7), "Moderate",
-#                                 ifelse(abs(seffy$MEI) >= 1.8, "Strong", "Neutral")))
-
-
 
 seffy$Period <- factor(seffy$Period, levels = c("EN", "Neutral", "LN"))
 summary(seffy$blv_sight_100hr)
@@ -232,7 +226,7 @@ write.csv(seffy, "beaked_yearly_sighting_rates.csv" )
 
 
 #PDO
-#read in pre-made value and period csvs\
+#read in pre-made value and period csvs
 pdov <- read.csv("pdo_value_monthly.csv", header = TRUE, check.names = FALSE)
 pdop <- read.csv("pdo_period.csv", header = TRUE, check.names = FALSE)
 
@@ -349,6 +343,18 @@ ggsave("Zc_monthly_sighting_rates_PDO_HI.jpeg", plot=last_plot(),
 
 
 
+#NPGO
+
+#read in pre-made value and period csvs
+npgo <- read.csv("NPGO_values_monthly.csv", header = TRUE, check.names = FALSE)
+
+#npgo is already in long format, so we don't have to edit it from there
+
+# match based on year/month
+seff$npgo_val <- npgo$npgo_values[match(paste(seff$year, seff$month), paste(npgo$year, npgo$month))]
+seff$npgo_period <- npgo$npgo_period[match(paste(seff$year, seff$month), paste(npgo$year, npgo$month))]
+
+
 #final sighting rates
 
 #add MEI to sightings and effort
@@ -407,3 +413,6 @@ constantneut <- (count(effneutral)*5)/60
 constantneut <- as.numeric(constantneut)
 counts_neut$effby100 <- ((counts_neut$n)/constantneut)*100
 counts_neut$ENSO <- "Neutral"
+
+
+#repeat process for PDO and NPGO
