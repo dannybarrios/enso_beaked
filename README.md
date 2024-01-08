@@ -5,7 +5,7 @@ Sightings
 2. sightings_graph_gh.R: Graphing sightings location and effort lines by MEI
 
 Tags
-1. Adding_mei_pdo_values_tags_gh.R: Adding mei and pdo values to beaked whale tags
+1. Adding_mei_pdo_npgo_values_tags_gh.R: Adding mei, pdo, and npgo values to beaked whale tags
 2. tag_displacement_gh.R: Calculating displacement between tag points for beaked whale data
 3. Variable_plots_tags_gh.R: Performing exploratory research with beaked whale tag and enso data
 
