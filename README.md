@@ -2,12 +2,10 @@ Attached are the r files and csvs used to get up to this point in the project. A
 
 Sightings
 1. sighting_rates_mei_gh.R: Calculating and analyzing sighting rates for beaked whale species in relation to enso values
-2. sightings_graph_gh.R: Graphing sightings location and effort lines by MEI
 
 Tags
 1. Adding_mei_pdo_npgo_values_tags_gh.R: Adding mei, pdo, and npgo values to beaked whale tags
 2. tag_displacement_gh.R: Calculating displacement between tag points for beaked whale data
-3. Variable_plots_tags_gh.R: Performing exploratory research with beaked whale tag and enso data
 
 CSVs (if any are missing from the r projects, please let me know):
 1. Allsightings_biasremoved_monthsbelow40hrHIadjusted_beaked: All beaked whale sightings, but months at HI with less 
