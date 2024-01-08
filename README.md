@@ -17,8 +17,9 @@ than 40 hours of effort have been combined if possible. Points with bias have al
 oceanographic variables, etc. 
 6. mei_values_csv: mei values by month and year
 7. pdo_period.csv: pdo period by month and year
-8. pdo_value_monthly: pdo value by month and year
-9. ZcTags_4hr_use_seafloor_geomorph_oceangographic_enso_300m_var_MAY23_v1: Cuvier's tags with all enso columns, 
+9. pdo_value_monthly: pdo value by month and year
+10. NPGO_values_monthly.csv: npgo values and period by month and year
+11. ZcTags_4hr_use_seafloor_geomorph_oceangographic_enso_300m_var_MAY23_v1: Cuvier's tags with all enso columns, 
 oceanographic variables, etc. 
 
 - Danny
