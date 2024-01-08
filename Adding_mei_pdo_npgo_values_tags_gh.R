@@ -31,6 +31,7 @@ cuv$MEI <- MEI_long$mei[match(paste(cuv$year, cuv$month), paste(MEI_long$Year, M
 cuv$Periodmei <- ifelse(cuv$MEI <= -0.5, "LN",
                         ifelse(cuv$MEI >= 0.5, "EN", "Neutral"))
 
+
 #PDO
 #read in pre-made value and period csvs
 cuv <- read.csv("ZcTags_4hr_use_seafloor_geomorph_oceangographic_enso_300m_var_MAY23_v1.csv")
@@ -49,5 +50,21 @@ blv$PDO_period <- pdo_long_p$PDO_period[match(paste(blv$year, blv$month), paste(
 
 cuv$PDO <- pdo_long_v$PDO_values[match(paste(cuv$year, cuv$month), paste(pdo_long_v$Year, pdo_long_v$month))]
 cuv$PDO_period <- pdo_long_p$PDO_period[match(paste(cuv$year, cuv$month), paste(pdo_long_p$Year, pdo_long_p$month))]
+
+
+#NPGO
+#read in pre-made value and period csvs
+cuv <- read.csv("ZcTags_4hr_use_seafloor_geomorph_oceangographic_enso_300m_var_MAY23_v1.csv")
+blv <- read.csv("MdTags_4hr_use_seafloor_geomorph_oceangographic_var_enso_MAY23_v1.csv")
+
+npgo <- read.csv("NPGO_values_monthly.csv", header = TRUE, check.names = FALSE)
+
+#add npgo and npgo period to each dataset
+blv$NPGO <- npgo$npgo_values[match(paste(blv$year, blv$month), paste(npgo$Year, npgo$month))]
+blv$NPGO_period <- npgo$npgo_period[match(paste(blv$year, blv$month), paste(npgo$Year, npgo$month))]
+
+cuv$NPGO <- npgo$NPGO_val[match(paste(cuv$year, cuv$month), paste(npgo$Year, npgo$month))]
+cuv$npgo_period <- npgo$NPGO_val[match(paste(cuv$year, cuv$month), paste(npgo$Year, npgo$month))]
+
 
 #write csvs
