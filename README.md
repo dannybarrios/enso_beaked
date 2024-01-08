@@ -2,10 +2,13 @@ Attached are the r files and csvs used to get up to this point in the project. A
 
 Sightings
 1. sighting_rates_mei_gh.R: Calculating and analyzing sighting rates for beaked whale species in relation to enso values
+2. FigS1_justgam_sightingmeia_gh.R: running Generalized Additive Models on the beaked whale sighting rate data
 
 Tags
 1. Adding_mei_pdo_npgo_values_tags_gh.R: Adding mei, pdo, and npgo values to beaked whale tags
 2. tag_displacement_gh.R: Calculating displacement between tag points for beaked whale data
+3. homerange_ratio_gh.R: Calculating range-use ratios for Cuvier's beaked whale data
+
 
 CSVs (if any are missing from the r projects, please let me know):
 1. Allsightings_biasremoved_monthsbelow40hrHIadjusted_beaked: All beaked whale sightings, but months at HI with less 
@@ -23,5 +26,8 @@ oceanographic variables, etc.
 11. ZcTags_4hr_use_seafloor_geomorph_oceangographic_enso_300m_var_MAY23_v1: Cuvier's tags with all enso columns, 
 oceanographic variables, etc.
 12. ZcTag002-044_DouglasFiltered_KS_r10d3lc2_2020MAYv2.csv: Cuvier's douglas filtered, original location tag data
+13. hawaii_sighting_rates_by_consecutive_times.csv: monthly sighting rate csv for both species, with shorter consecutive periods combined
+14. deployment_duration.csv: lists the deployment duration for each beaked whale tag
+
 
 - Danny
