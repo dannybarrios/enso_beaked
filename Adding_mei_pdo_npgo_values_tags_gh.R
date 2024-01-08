@@ -2,7 +2,8 @@
 ##Adding mei and pdo values to beaked whale tags
 
 ##Author: Daniel M. Barrios
-## Updated: 23 June 2023library(adehabitatLT)
+## Updated: 8 January 2024
+library(adehabitatLT)
 library(dplyr)
 library(lubridate)
 library(ggplot2)
