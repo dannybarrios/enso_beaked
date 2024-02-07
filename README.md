@@ -2,7 +2,7 @@ Attached are the r files and csvs used to get up to this point in the project. A
 
 Sightings
 1. sighting_rates_mei_gh.R: Calculating and analyzing sighting rates for beaked whale species in relation to enso values
-2. FigS1_justgam_sightingmeia_gh.R: running Generalized Additive Models on the beaked whale sighting rate data
+2. FigS1_justgam_sightingmei_gh.R: running Generalized Additive Models on the beaked whale sighting rate data
 
 Tags
 1. Adding_mei_pdo_npgo_values_tags_gh.R: Adding mei, pdo, and npgo values to beaked whale tags
