@@ -6,9 +6,8 @@ Sightings
 3. sightingrates_gam_gh: running Generalized Additive Models on the beaked whale sighting rate data. Residual plots are created at the end. 
 
 Tags
-1. Adding_mei_pdo_npgo_values_tags_gh.R: Adding mei, pdo, and npgo values to beaked whale tags
-2. calculate_rangeuseratios_gh.R: Creating range use ratios for tagged goose-beaked whales. 
-3. rangeuseratios_stats_gh.R: Summary and formal analysis of range use ratios for goose-beaked whales ~ ENSO and season
+1. calculate_rangeuseratios_gh.R: Creating range use ratios for tagged goose-beaked whales. 
+2. rangeuseratios_stats_gh.R: Summary and formal analysis of range use ratios for goose-beaked whales ~ ENSO and season
 
 
 CSVs (if any are missing from the r projects, please let me know):
