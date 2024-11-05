@@ -1,0 +1,46 @@
+year,month,Island,island,Blainville,goosebeaked,EffCount,eff_hours,blv_sight_100hr,cuv_sight_100hr,MEI,Period,pdo_val,pdo_period,npgo,npgo_val,season
+2002,4,Hawaii,Hawaii,1,0,344,28.66666667,3.488372093,0,-0.4,Neutral,-1.23,Cold,0.9,Warm,Winter
+2002,9,Hawaii,Hawaii,1,4,570,47.5,2.105263158,8.421052632,0.7,El Niño,-0.21,Neutral,0.82,Warm,Summer
+2003,10,Hawaii,Hawaii,1,5,1531,127.5833333,0.783801437,3.919007185,0.3,Neutral,0.74,Warm,1.29,Warm,Summer
+2003,5,Hawaii,Hawaii,1,0,618,51.5,1.941747573,0,-0.5,La Niña,0.21,Neutral,0.92,Warm,Spring
+2004,11,Hawaii,Hawaii,0,0,1092,91,0,0,0.4,Neutral,-1.22,Cold,-0.44,Cold,Fall
+2004,9,Hawaii,Hawaii,2,2,1261,105.0833333,1.903251388,1.903251388,0.5,El Niño,0.02,Neutral,0.38,Warm,Summer
+2005,1,Hawaii,Hawaii,2,4,1065,88.75,2.253521127,4.507042254,0.1,Neutral,-0.15,Neutral,-1.93,Cold,Fall
+2006,11,Hawaii,Hawaii,3,8,1635,136.25,2.201834862,5.871559633,0.8,El Niño,-0.81,Cold,-1.16,Cold,Fall
+2006,4,Hawaii,Hawaii,4,2,2125,177.0833333,2.258823529,1.129411765,-0.8,La Niña,-0.54,Cold,-0.64,Cold,Winter
+2006,7,Hawaii,Hawaii,0,0,602,50.16666667,0,0,0.2,Neutral,0.39,Neutral,-0.26,Cold,Spring
+2007,8,Hawaii,Hawaii,1,0,1148,95.66666667,1.045296167,0,-0.9,La Niña,0.09,Neutral,1.24,Warm,Summer
+2008,12,Hawaii,Hawaii,0,2,782,65.16666667,0,3.069053708,-1.1,La Niña,-1.31,Cold,0.44,Warm,Fall
+2008,5,Hawaii,Hawaii,0,2,2027,168.9166667,0,1.184015787,-1,La Niña,-1.62,Cold,1.73,Warm,Spring
+2008,7,Hawaii,Hawaii,1,2,1376,114.6666667,0.872093023,1.744186047,-0.9,La Niña,-1.96,Cold,1.63,Warm,Spring
+2009,10,Hawaii,Hawaii,1,3,826,68.83333333,1.452784504,4.358353511,0.6,El Niño,-0.13,Neutral,1.1,Warm,Summer
+2009,12,Hawaii,Hawaii,2,5,853,71.08333333,2.813599062,7.033997655,1.1,El Niño,-0.51,Cold,1.16,Warm,Fall
+2009,4,Hawaii,Hawaii,2,4,1206,100.5,1.990049751,3.980099502,-0.7,La Niña,-2.23,Cold,0.22,Warm,Winter
+2010,12,Hawaii,Hawaii,0,1,937,78.08333333,0,1.280683031,-1.9,La Niña,-2.04,Cold,0.7,Warm,Fall
+2010,4,Hawaii,Hawaii,0,2,976,81.33333333,0,2.459016393,0.4,Neutral,-0.04,Neutral,1.13,Warm,Winter
+2010,8,Hawaii,Hawaii,2,2,1401,116.75,1.713062099,1.713062099,-2.5,La Niña,-2.21,Cold,0.83,Warm,Summer
+2011,10,Hawaii,Hawaii,1,6,2312,192.6666667,0.519031142,3.114186851,-1.4,La Niña,-1.92,Cold,1.03,Warm,Summer
+2011,5,Hawaii,Hawaii,1,0,699,58.25,1.716738197,0,-1.3,La Niña,-0.66,Cold,1.67,Warm,Spring
+2011,8,Hawaii,Hawaii,1,2,1155,96.25,1.038961039,2.077922078,-0.9,La Niña,-2.37,Cold,0.93,Warm,Summer
+2012,5,Hawaii,Hawaii,6,4,1266,105.5,5.687203791,3.791469194,-0.4,Neutral,-2.12,Cold,1.81,Warm,Spring
+2012,8,Hawaii,Hawaii,0,1,2624,218.6666667,0,0.457317073,0,Neutral,-2.6,Cold,1.75,Warm,Summer
+2013,10,Hawaii,Hawaii,1,4,1036,86.33333333,1.158301158,4.633204633,-0.2,Neutral,-1.65,Cold,-0.21,Cold,Summer
+2013,5,Hawaii,Hawaii,0,2,1331,110.9166667,0,1.803155522,-0.9,La Niña,-0.4,Neutral,1.01,Warm,Spring
+2014,11,Hawaii,Hawaii,0,4,1639,136.5833333,0,2.928615009,0.3,Neutral,1.35,Warm,0.48,Warm,Fall
+2014,7,Hawaii,Hawaii,2,1,938,78.16666667,2.558635394,1.279317697,0.4,Neutral,0.25,Neutral,-0.11,Cold,Spring
+2015,11,Hawaii,Hawaii,1,2,1085,90.41666667,1.105990783,2.211981567,1.9,El Niño,0.17,Neutral,-2.14,Cold,Fall
+2015,4,Hawaii,Hawaii,3,0,1116,93,3.225806452,0,0.5,El Niño,0.9,Warm,-1.2,Cold,Winter
+2016,7,Hawaii,Hawaii,1,1,710,59.16666667,1.690140845,1.690140845,-0.5,La Niña,0.57,Warm,-0.5,Cold,Spring
+2016,9,Hawaii,Hawaii,0,0,456,38,0,0,-0.3,Neutral,-0.8,Cold,-0.74,Cold,Summer
+2017,10,Hawaii,Hawaii,0,0,582,48.5,0,0,-0.6,La Niña,-0.68,Cold,-1.36,Cold,Summer
+2017,6,Hawaii,Hawaii,0,0,973,81.08333333,0,0,-0.6,La Niña,0.35,Neutral,-0.34,Cold,Spring
+2018,11,Hawaii,Hawaii,1,0,653,54.41666667,1.837672282,0,0.2,Neutral,-0.69,Cold,-1.82,Cold,Fall
+2018,4,Hawaii,Hawaii,0,0,540,45,0,0,-1.3,La Niña,-0.81,Cold,-2.02,Cold,Winter
+2019,11,Hawaii,Hawaii,2,4,802,66.83333333,2.992518703,5.985037406,0.4,Neutral,-0.49,Neutral,-3.42,Cold,Fall
+2019,4,Hawaii,Hawaii,1,2,415,34.58333333,2.891566265,5.78313253,0.3,Neutral,0.1,Neutral,-2.07,Cold,Winter
+2020,6,Hawaii,Hawaii,0,2,724,60.33333333,0,3.314917127,-0.9,La Niña,-0.76,Cold,-1.94,Cold,Spring
+2020,9,Hawaii,Hawaii,1,2,744,62,1.612903226,3.225806452,-1.2,La Niña,-1.04,Cold,-1.28,Cold,Summer
+2021,11,Hawaii,Hawaii,0,4,889,74.08333333,0,5.399325084,-1.4,La Niña,-2.75,Cold,-0.37,Cold,Fall
+2021,4,Hawaii,Hawaii,4,0,1769,147.4166667,2.7133974,0,-1,La Niña,-1.85,Cold,-1.85,Cold,Winter
+2022,10,Hawaii,Hawaii,1,3,649,54.08333333,1.848998459,5.546995378,-1.7,La Niña,-1.8,Cold,-1.9,Cold,Summer
+2022,6,Hawaii,Hawaii,0,0,565,47.08333333,0,0,-2.1,La Niña,-1.34,Cold,-0.67,Cold,Spring
