@@ -1,4 +1,4 @@
-Attached are the r files and csvs used to get up to this point in the project. A quick summary of each r project:
+Attached are the R files and CSVs used throughout this project. A quick summary of each r project:
 
 Sightings
 1. sighting_rates_mei_gh.R: Calculating and analyzing sighting rates for beaked whale species in relation to enso values
